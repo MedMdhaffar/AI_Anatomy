@@ -25,7 +25,6 @@ This project is focused on building a machine learning model to predict the like
 ```bash
 # Clone the repo
 git clone (https://github.com/MedMdhaffar/AI_Anatomy)
-cd Src
 
 # Create a virtual environment (optional)
 python -m venv .
@@ -33,6 +32,7 @@ python -m venv .
 
 # Install dependencies
 pip install -r requirements.txt
+cd Src
 
 # Run the model
 streamlit run model.py
